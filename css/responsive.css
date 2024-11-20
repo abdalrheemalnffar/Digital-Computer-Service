@@ -1,0 +1,210 @@
+@media (max-width: 1300px) {}
+
+@media (max-width: 1120px) {}
+
+@media (min-width:320px) and (max-width:700px) {
+  .header_section {
+    background-color: #222831;
+    padding-bottom: 0px;
+  }
+}
+@media (max-width: 992px) {
+  .hero_area {
+    min-height: auto;
+  }
+
+  .custom_nav-container .navbar-nav {
+    /* padding-top: 15px; */
+    padding-left: 0;
+    align-items: center;
+    /* background-color: rgb(177, 177, 177); */
+ 
+  }
+
+  .user_option{
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
+  .custom_nav-container .navbar-nav .nav-item .nav-link {
+    padding: 5px 25px;
+    margin: 5px 0;
+    
+  }
+  /* .custom_nav-container .navbar-toggler {
+    background-color: #ffbe33;
+  } */
+
+  .slider_section .carousel-indicators {
+    margin-top: 45px;
+  }
+
+  .offer_section .box {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .offer_section .box .img-box {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+
+  .about_section .detail-box,
+  .book_section .form_container {
+    margin-bottom: 45px;
+  }
+
+  .about_section .row {
+    flex-direction: column-reverse;
+  }
+
+  .offer_section .box {
+    flex-direction: row;
+    text-align: left;
+  }
+
+  .offer_section .box .img-box {
+    margin-right: 15px;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 576px) {}
+
+@media (max-width: 480px) {}
+
+@media (max-width: 430px) {
+  .offer_section .box {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .offer_section .box .img-box {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+}
+
+  /* @media (max-width: 376px) {
+    
+
+
+  } */
+
+
+@media (max-width: 376px) {
+  .product_section h2 {
+    font-size: 1.5em; /* Adjust the heading size */
+  }
+
+  .filters_menu li {
+    font-size: 0.8em; /* Adjust the filters menu text size */
+  }
+
+  .detail-box h5 {
+    font-size: 1em; /* Adjust the product title size */
+  }
+
+  .options h6 {
+    font-size: 0.9em; /* Adjust the price size */
+  }
+
+  .options a {
+    font-size: 0.7em; /* Adjust the button text size */
+    padding: 5px 10px; /* Adjust the button padding */
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
+
+
+@media (min-width:576px) and (max-width:991px) {
+  .rent_solution_container .col-md-4.col-sm-6 {
+    float: left;
+    width: 50%;
+  }
+}
+@media (max-width: 576px) {
+  .client_section .carousel-wrap .owl-carousel {
+    display: flex;
+    flex-direction: column;
+  }
+  .client_section .item .box .detail-box {
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    
+  }
+  .client_section .item .box .detail-box p {
+    font-size: 14px;
+  }
+  .client_section .item .box .detail-box h6 {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+}
+ @media (min-width:319px) and (max-width: 380px) {
+  .navbar-brand span{
+    font-size: 14px;
+  }
+  .slider_section .detail-box{
+    margin-top: 40px;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+  .slider_section .detail-box h1{
+    font-size: 20px;
+  }.slider_section .detail-box h2{
+    font-size: 20px;
+  }
+}
+@media  (max-width:  450px) {
+  .navbar-brand span{
+    font-size: 14px !important;
+  }
+  .bg-box img {
+    width: 200%;
+    height: auto;
+    left: -100%;
+  }
+
+  .slider_section .detail-box{
+    margin-top: 160px;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+  .slider_section .detail-box h2{
+    /* font-size: 30px; */
+    margin: 0;
+  }.slider_section .detail-box h1{
+    /* font-size: 30px; */
+    margin: 0;
+  }
+  .slider_section .detail-box .btn-box a{
+    padding: 10px 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .slider_section .carousel-indicators {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+  }
+  .slider_section .carousel-indicators li{
+    background-color: gray;
+    
+  }
+}
